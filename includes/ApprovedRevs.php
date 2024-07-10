@@ -4,6 +4,7 @@ use MediaWiki\Content\Renderer\ContentParseParams;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
 use MediaWiki\User\UserNameUtils;
+use MediaWiki\Deferred\LinksUpdate\LinksUpdate;
 
 /**
  * Main class for the Approved Revs extension.
